@@ -30,8 +30,10 @@
         width: 100%;
         height: 100%;
         display: none;
-        position: fixed;
-        top: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         table-layout: fixed;
         margin-top: 10px;
 
@@ -43,7 +45,7 @@
         -webkit-text-stroke-width: 3px;
         color: red;
         background-color:rgba(255, 255, 255, .5);
-        ;
+        overflow-y: hidden;
 
     }
 
@@ -143,5 +145,21 @@
     #resume{
         display: none;
     }
+
+/* ================================ */
+/* TEXT PAGE================================ */
+
+    .burmaImg,
+    .bobbiImg,
+    .miscImg{
+        display: none;
+    }
+
+    .vertMoblie{
+        display: block;
+        height: 100%;
+    }
+
+
 }
     

@@ -135,11 +135,10 @@ body,
 }
 
 #aboutImg{
-    /* margin-top: 10px */
     width: 70%;
     height: 60vw;
 
-    background-image: url('../../assets/IMG_2200.jpg');
+    background-image: url('../../assets/photos/IMG_2200.jpg');
     background-position:  center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -194,4 +193,67 @@ body,
 
 .photospic{
     height: 100%;
+}
+
+
+/* ================================ */
+/* TEXT PAGE================================ */
+
+#textContainer{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.text{
+    text-align: center;
+    width: 100%;
+    height: 95vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    border: black solid 8px;
+}
+
+.alphaVertImg{
+height: 100%;
+margin-right: 15px;
+
+}
+
+.dispText{
+    width: 75%;
+    margin-bottom: 10px;
+
+}
+
+.burmaImg,
+.bobbiImg,
+.miscImg{
+    vertical-align: sub;
+}
+
+#burmaText{
+    background-image: url('../../assets/type/burma/burma_g.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bobbiText{
+    background-image: url('../../assets/type/bobbi/bobbi_a.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#miscellanyText{
+    background-image: url('../../assets/type/misc/misc_R.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vertMoblie{
+    display: none;
 }
