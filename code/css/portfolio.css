@@ -254,6 +254,214 @@ margin-right: 15px;
     background-size: cover;
 }
 
+#zineText{
+    background-image: url('../../assets/photos/A1C05E04-CB9A-4219-B7A1-2415EE4AB015.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .vertMoblie{
     display: none;
 }
+
+.dispText:hover{
+    cursor: pointer;
+}
+
+/* ================================ */
+/* SECONDAY TEXT PAGE================================ */
+
+#textSec{
+    display: flex;
+    flex-direction: row;
+}
+
+#flexCont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.detialBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.detials{
+    margin: 5px;
+    border: black solid 8px;
+    width: 100%;
+    height: 25vh;
+}
+
+.detialText{
+    margin: 5px;
+    border: transparent solid 8px;
+    width: 100%;
+}
+
+.typeDiscription{
+    text-align: right;
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+}
+
+.contAlph{
+    margin: 5px;
+    width: 30%;
+    border: none;
+}
+
+#vertDetial{
+    height: 95vh;
+}
+
+.punct_numbers_img{
+    width: 100%
+}
+
+.downloadButton{
+    text-align: center;
+    height: 2em;
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: black;
+    color: red;
+    position: relative;
+}
+.downloadText{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.downloadButton:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* BURMA TYPE PAGE */
+.vertDetialMobile{
+    display: none;
+}
+
+.contBurm1{
+    background-image: url('../../assets/type/burma/burma_g.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contBurm2{
+    background-image: url('../../assets/type/burma/burma_g.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contBurm3{
+    background-image: url('../../assets/type/burma/burma_g.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contBurm4{
+    background-image: url('../../assets/type/burma/burma_fullLoop.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black solid 8px;
+
+}
+.contBurm5{
+    background-color: black;
+}
+
+.numbersImg,
+.punctImg{
+    display: none;
+}
+
+/* BOBBI TYPE PAGE */
+.contBob1{
+    background-image: url('../../assets/type/bobbi/bobbi_a.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contBob2{
+    background-image: url('../../assets/type/bobbi/bobbi_a.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contBob3{
+    background-image: url('../../assets/type/bobbi/bobbi_a.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contBob4{
+    background-image: url('../../assets/type/bobbi/bobbi_fullLoop.gif');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black solid 8px;
+
+}
+.contBob5{
+    background-color: black;
+}
+
+/* MISCELLANY TYPE PAGE */
+.contMisc1{
+    background-image: url('../../assets/type/misc/misc_R.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contMisc2{
+    background-image: url('../../assets/type/misc/misc_R.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contMisc3{
+    background-image: url('../../assets/type/misc/misc_R.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contMisc4{
+    background-image: url('../../assets/type/misc/miscDis_fullLoop.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black solid 8px;
+}
+
+.contMisc5{
+    background-image: url('../../assets/type/misc/miscSolid_fullLoop.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: black solid 8px;
+}
+

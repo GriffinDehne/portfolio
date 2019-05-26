@@ -30,10 +30,9 @@
         width: 100%;
         height: 100%;
         display: none;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        position: fixed;
+        top: 0;
+        
         table-layout: fixed;
         margin-top: 10px;
 
@@ -44,7 +43,7 @@
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke-width: 3px;
         color: red;
-        background-color:rgba(255, 255, 255, .5);
+        background-color:rgba(255, 255, 255, .6);
         overflow-y: hidden;
 
     }
@@ -160,6 +159,56 @@
         height: 100%;
     }
 
+    .vertMoblie:hover{
+        cursor: pointer;
+    }
 
+    #vertDetial{
+        display: none;
+    }
+
+/* ================================ */
+/* SECONDAY TEXT PAGE================================ */
+    
+    .vertDetialMobile{
+        display: block;
+        position: fixed;
+        left: 0;
+        height: 95vh;
+        margin-top: 10px
+    }
+    
+    .detials{
+        display: none;
+    }
+    
+    /* TEXT PAGE */
+    .detialBoxSub{
+        display: block;
+        z-index: -100;
+    }
+
+    .contBurm4,
+    .contBob4,
+    .contMisc4,
+    .contMisc5{
+        height: 40vh;
+        background-position: center;
+        background-size: auto 150%;
+    }
+
+    .contBurm5,
+    .punct_numbers_img,
+    .downloadButton,
+    .contBob5{
+        display: none;
+    }
+
+    .numbersImg,
+    .punctImg,
+    .alphaLayered{
+        display: block;
+        width: 100%;
+    }
 }
     
