@@ -64,6 +64,20 @@ body,
     -webkit-text-fill-color: red;
 }
 
+#nameIndex{
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-weight: 900;
+    font-size: 6em;
+    text-align: center;
+    line-height: 90%;
+    color: red;
+}
+
 /* secondary pages */
 #secondaryMenu{
     font-family: Helvetica, Arial, sans-serif;
@@ -193,6 +207,8 @@ body,
 
 .photospic{
     height: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 
@@ -272,6 +288,10 @@ margin-right: 15px;
 /* ================================ */
 /* SECONDAY TEXT PAGE================================ */
 
+.alphaLayered{
+    display: none;
+}
+
 #textSec{
     display: flex;
     flex-direction: row;
@@ -284,6 +304,13 @@ margin-right: 15px;
 }
 
 .detialBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.detialBoxSub{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -465,3 +492,67 @@ margin-right: 15px;
     border: black solid 8px;
 }
 
+/* ================================ */
+/* WORK PAGE================================ */
+
+.workContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 90vh;
+    margin-top: 15px;
+    padding: 20px;
+    border: black solid 8px;
+}
+
+.workImgContainer{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.imgTextMobile{
+    display: none;
+}
+
+.textContainer{
+    width: 100%;
+}
+
+.workText{
+    text-align: right;
+}
+
+.workTitle{
+    font-size:3.8vw;
+    font-weight: 800;
+    line-height: 90%;
+    padding-top: 20%;
+}
+
+.workTitle:hover{
+    color:red;
+    cursor: pointer;
+}
+
+.workDiscription{
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 95%
+}
+
+.click:hover{
+    color: darkslategrey;
+    cursor: pointer;
+}
+
+#zineImg{
+    background-image: url('../../assets/photos/A1C05E04-CB9A-4219-B7A1-2415EE4AB015.JPG');
+}
+
+#newspaperImg{
+    background-image: url('../../assets/work/0516_scsum_A01_C.png')
+}

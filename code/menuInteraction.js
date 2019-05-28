@@ -16,7 +16,7 @@ $(function(){
         
         //onclick    
             $('#menuWork').click(function(){
-                // window.location = '../';
+                window.location = 'code/work/work.html';
             });
 
             $('#menuType').click(function(){
@@ -46,7 +46,7 @@ $(function(){
 
         //onclick    
             $('#menuWorkMoblie').click(function(){
-                // window.location = '../';
+                window.location = 'code/work/work.html';
             });
 
             $('#menuTypeMoblie').click(function(){
@@ -82,7 +82,7 @@ $(function(){
         });
         
         $('#secWork').click(function(){
-            // window.location = '../';
+            window.location = '../work/work.html';
         });
 
         $('#secType').click(function(){
@@ -116,7 +116,7 @@ $(function(){
         });
 
         $('#secWorkMoblie').click(function(){
-            // window.location = '../';
+            window.location = '../work/work.html';
         });
 
         $('#secTypeMoblie').click(function(){

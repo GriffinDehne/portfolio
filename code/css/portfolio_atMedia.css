@@ -210,5 +210,51 @@
         display: block;
         width: 100%;
     }
+
+/* ================================ */
+/* WORK PAGE================================ */
+
+    .workContainer{
+        display: block;
+    }
+
+    .textContainer{
+        display: none;
+    }
+
+    .workImgContainer{
+        position: relative;
+        margin: 0;
+    }
+
+    .imgTextMobile{
+        display: block;
+        color: white;
+        
+    }
+
+    .head{
+        font-size: 5vw;
+        font-weight: 800;
+        line-height: 80%;
+
+        position: absolute;
+        top: 0;
+
+        background-color:rgba(0, 0, 0, .6);
+        padding-top: 5px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .mobileDis{
+        position: absolute;
+        bottom: 0;
+
+        background-color:rgba(0, 0, 0, .6);
+        padding-top: 5px;
+        text-align: center;
+        width: 100%;
+    }
 }
     
