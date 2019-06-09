@@ -44,6 +44,8 @@ $(function(){
                 $(this).css('cursor','pointer');
             });
 
+           
+
         //onclick    
             $('#menuWorkMoblie').click(function(){
                 window.location = 'code/work/work.html';
