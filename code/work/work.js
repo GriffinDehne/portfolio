@@ -7,13 +7,13 @@ $(function(){
         window.location = 'zineWork.html';
     });
     
-    $('zineClick').touchstart(function(){
-        $(this).css('background-color', 'red');
-    });
+    // $('zineClick').touchstart(function(){
+    //     $(this).css('background-color', 'red');
+    // });
 
-    $('zineClick').touchend(function(){
-        window.location = 'zineWork.html';
-    });
+    // $('zineClick').touchend(function(){
+    //     window.location = 'zineWork.html';
+    // });
 
 //sova click
 
@@ -21,13 +21,13 @@ $(function(){
         window.location = 'sovaWork.html';
     });
 
-    $('sovaClick').touchstart(function(){
-        $(this).css('background-color', 'red');
-    });
+    // $('sovaClick').touchstart(function(){
+    //     $(this).css('background-color', 'red');
+    // });
 
-    $('.sovaClick').touchend(function(){
-        window.location = 'sovaWork.html';
-    }); 
+    // $('.sovaClick').touchend(function(){
+    //     window.location = 'sovaWork.html';
+    // }); 
 
 
 });
