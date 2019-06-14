@@ -19,7 +19,12 @@ $(function(){
         window.open('https://www.instagram.com/griff.n/');
     });
 
+    $('#resume').click(function(){
+        window.open('https://drive.google.com/file/d/1jRiGPOAsxqx1oeKQBjYpqGmB3gQynKTT/view?usp=sharing');
+    });
 
-
+    $('#contact').click(function(){
+        window.open('https://forms.gle/VXv6zzjmT9JUPZy76');
+    });
 
 });
